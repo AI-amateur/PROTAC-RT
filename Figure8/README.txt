@@ -1,0 +1,24 @@
+*All the results were the average value of ten runs. 
+
+*The XGBoost model, along with the RF, FCNN and GNN transfer models, has made predictions on the 6testE dataset.
+
+*Six compounds were measured for retention time under two different chromatographic conditions and then predicted.
+
+*The evaluation metrics for the results are recorded using the following indicators:MRSE,MSE,MAE,MAPE,and MRE.
+
+1.The predictive results for the first set of conditions using three models are recorded in the following files.
+6testE_xgb_CC1.csv
+6testE_rf_CC1.csv
+6testE_fcnn_CC1.csv
+
+
+2.The predictive results for the second set of conditions using four models are recorded in the following files. 
+6testE_xgb_CC2.csv
+6testE_rf_CC2.csv
+6testE_fcnn_CC2.csv
+6testE_GNN_CC2.csv
+
+
+3.The evaluation metrics for each model under the two different conditions are recorded in the respective files.
+eva_6testE_CC1.csv
+eva_6testE_CC2.csv

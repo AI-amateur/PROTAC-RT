@@ -1,0 +1,2 @@
+model,fp_types,test_r2,test_rmse
+FCNN,420intrinsic_mPC_CC,0.9169255088016272,1.3260925340487604

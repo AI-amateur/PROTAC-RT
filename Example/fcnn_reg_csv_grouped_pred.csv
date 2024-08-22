@@ -1,0 +1,2 @@
+model,fp_types,x_r2_score,x_rmse
+FCNN,mPC_CC,0.6253728159938625,2.8652655531677946

@@ -1,0 +1,9 @@
+﻿model,fp_types,test_r2,test_rmse
+xgb,moe206_Charge_CC,0.952595731,0.984278856
+xgb,moe206_Constitution_CC,0.955111448,0.965464015
+xgb,moe206_Path_CC,0.95699432,0.946950509
+model,fp_types,test_r2,test_rmse
+xgb,moe206_Path_Charge_CC,0.958321153,0.933872934
+xgb,moe206_Path_Constitution_CC,0.956115235,0.951939947
+model,fp_types,test_r2,test_rmse
+xgb,moe206_Path_Charge_Constitution_CC,0.953226761,0.980382911

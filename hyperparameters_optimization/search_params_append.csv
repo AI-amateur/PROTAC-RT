@@ -1,0 +1,279 @@
+max_depth: [4_ 5_ 6_ 8]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0753490521140636,0.9502182534642654
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0679914574579694,0.9495911106177812
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0385228274912865,0.9497771119702658
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0683396243895822,0.9498887958988034
+best max_depth values is: 4.0, test_r2 is: 0.9502182534642654
+learning_rate: [0.01_ 0.025_ 0.05_ 0.075_ 0.1_ 0.12]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.033604021783205,0.951826508538877
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0753490521140636,0.9502182534642654
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.110999034973548,0.9490621937068549
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.1365933630031186,0.9503852123764357
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.1053317572590844,0.9481506831569051
+best learning_rate values is: 0.01, test_r2 is: 0.9549664611045054
+n_estimators: [500_ 1000_ 2000_ 3000_ 4000]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,5.110929474395435,0.5968465684839053
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,2.0703318049296735,0.8880719296868135
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0656356905242366,0.9540376813217492
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0660764431633305,0.95246597150552
+best n_estimators values is: 2000.0, test_r2 is: 0.9549664611045054
+gamma: [0.05_ 0.1_ 0.5_ 1_ 2_ 4]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+best gamma values is: 0.05, test_r2 is: 0.9549664611045054
+min_child_weight: [1_ 2_ 4_ 5_ 8_ 16]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.865185505152708,0.9513353567917721
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.881682050844386,0.9542193240193046
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9250480705692751,0.956274417259953
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9433501029348887,0.9549664611045054
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9770493502500822,0.9526200227990392
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9936486801866955,0.9532877154540044
+best min_child_weight values is: 4.0, test_r2 is: 0.956274417259953
+max_delta_step: [0_ 1_ 2_ 3_ 4]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.1936512340460137,0.9511677328995086
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9250480705692751,0.956274417259953
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.079391114827945,0.954383585836949
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0932344194382007,0.9531707483556069
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.1395599014817839,0.9529979250660208
+best max_delta_step values is: 1.0, test_r2 is: 0.956274417259953
+subsample: [0.5_ 0.53_ 0.6_ 0.7_ 0.8_ 0.9_ 1]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9241796313829967,0.9552898984983516
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9250480705692751,0.956274417259953
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9820319466472948,0.9570653071805818
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0311661200972906,0.957822519301938
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0761191297544064,0.9567148169283465
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.1335422369244852,0.9548808336118967
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.1971422532448681,0.9530785845790964
+best subsample values is: 0.7, test_r2 is: 0.957822519301938
+colsample_bytree: [0.3_ 0.4_ 0.5_ 0.6_ 0.66_ 0.7_ 0.8]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.081557349782419,0.9485116301435654
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0832851516152218,0.9524962444456863
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0516147151853168,0.9552097678364074
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.043829138422802,0.9563179650801057
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0311661200972906,0.957822519301938
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.022094764239223,0.9586448796053437
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0223944187538347,0.9591911491473439
+best colsample_bytree values is: 0.8, test_r2 is: 0.9591911491473439
+reg_alpha: [0_ 1_ 2_ 3_ 4_ 5]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0223944187538347,0.9591911491473439
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.004138196145821,0.9597513615277895
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0130934169185364,0.9599366398834384
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.016978874250922,0.9596863264503226
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0076504080980484,0.9591150559041074
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0019499849117808,0.958575623540195
+best reg_alpha values is: 2.0, test_r2 is: 0.9599366398834384
+reg_lambda: [0_ 0.2_ 0.5_ 0.75_ 1_ 1.2]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.008125251504036,0.960211708761039
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.010816027043848,0.9601654357583568
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.010660359351544,0.9601836185180946
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0115726550719482,0.9601264645796442
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0130934169185364,0.9599366398834384
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0144018181376275,0.9599584087549642
+best reg_lambda values is: 0.0, test_r2 is: 0.960211708761039
+current best is: {'params': {'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 0.8, 'gamma': 0.05, 'importance_type': 'gain', 'learning_rate': 0.01, 'max_delta_step': 1.0, 'max_depth': 4, 'min_child_weight': 4, 'missing': None, 'n_estimators': 2000, 'n_jobs': 1, 'nthread': None, 'objective': 'reg:squarederror', 'random_state': 0, 'reg_alpha': 2.0, 'reg_lambda': 0, 'scale_pos_weight': 1, 'seed': 123, 'silent': None, 'subsample': 0.7, 'verbosity': 1, 'gpu_id': 0, 'tree_method': 'gpu_hist'}, 'results': {'test_r2': 0.960211708761039, 'model': 'xgb', 'fp_types': 'moe206_Path_Charge_CC', 'test_rmse': 1.008125251504036}}
+param_w_file is: params_2024-07-19-02_11_19
+max_depth: [4_ 5_ 6_ 8]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9164588958418097,0.960211708761039
+max_depth: [4_ 5_ 6_ 8]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9164588958418097,0.960211708761039
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9069067856312742,0.9608656267447181
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9050326317264714,0.9610467698691437
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+best max_depth values is: 8.0, test_r2_avg is: 0.9612331983426105
+learning_rate: [0.01_ 0.025_ 0.05_ 0.075_ 0.1_ 0.12]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9540831797009826,0.9548289574071571
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9446442163488546,0.9556816536916444
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.960717462248604,0.9541457977382166
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9754812594162315,0.9534785080466005
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9568707565431127,0.9555145561450864
+best learning_rate values is: 0.01, test_r2_avg is: 0.9612331983426105
+n_estimators: [500_ 1000_ 2000_ 3000_ 4000]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,4.520870226159842,0.6106968865603151
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.9694306631324885,0.8953700704668659
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9365365103188663,0.9569220200399222
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9470751392960419,0.955729025510124
+best n_estimators values is: 2000.0, test_r2_avg is: 0.9612331983426105
+gamma: [0.05_ 0.1_ 0.5_ 1_ 2_ 4]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+best gamma values is: 0.05, test_r2_avg is: 0.9612331983426105
+min_child_weight: [1_ 2_ 4_ 5_ 8_ 16]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.929016018141847,0.9578894839203617
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9171630007470937,0.9596836502147916
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9024035951566937,0.9612331983426105
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9008435015219654,0.9613660697630746
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9344065771487446,0.9580051887896991
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9525567967289567,0.9563157290744257
+best min_child_weight values is: 5.0, test_r2_avg is: 0.9613660697630746
+max_delta_step: [0_ 1_ 2_ 3_ 4]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9944444812952777,0.9499678766903157
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9008435015219654,0.9613660697630746
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9405368467460841,0.956586143689873
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9491220322711253,0.9554157825555928
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9686988879576232,0.9531386499441112
+best max_delta_step values is: 1.0, test_r2_avg is: 0.9613660697630746
+subsample: [0.5_ 0.53_ 0.6_ 0.7_ 0.8_ 0.9_ 1]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9595230359375554,0.9562109569806168
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9427950931500533,0.9577685895691419
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9275910945983192,0.9590453034078902
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9008435015219654,0.9613660697630746
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9040365588141984,0.9610078712063805
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9164456804397672,0.9598021440505418
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9312464285324644,0.9583402362053031
+best subsample values is: 0.7, test_r2_avg is: 0.9613660697630746
+colsample_bytree: [0.3_ 0.4_ 0.5_ 0.6_ 0.66_ 0.7_ 0.8]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,1.0265925849971385,0.9506345992776261
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9799363539844546,0.9548425103571268
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.952889098754697,0.9571002847616275
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9310195967850156,0.9589547217654941
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9186583020848327,0.9600468078082912
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9132842844259695,0.9605099374721066
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9008435015219654,0.9613660697630746
+best colsample_bytree values is: 0.8, test_r2_avg is: 0.9613660697630746
+reg_alpha: [0_ 1_ 2_ 3_ 4_ 5]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9204701797485708,0.9596338747015982
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9079248210562122,0.9606893521863409
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9008435015219654,0.9613660697630746
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.902055673777396,0.9612419817946888
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9118110194119915,0.9604562868473823
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9260706960164352,0.9593137154538365
+best reg_alpha values is: 2.0, test_r2_avg is: 0.9613660697630746
+reg_lambda: [0_ 0.2_ 0.5_ 0.75_ 1_ 1.2]
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9008435015219654,0.9613660697630746
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9020378206861672,0.9612599935076112
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.901858359123351,0.9612359194646342
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9029655189726891,0.9611514445798722
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9055035590210189,0.9609846875504264
+,model,fp_types,test_rmse,test_r2
+0,xgb,moe206_Path_Charge_CC,0.9059514862815323,0.9609808065185625
+best reg_lambda values is: 0.0, test_r2_avg is: 0.9613660697630746
+current best is: {'params': {'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 0.8, 'gamma': 0.05, 'gpu_id': 0, 'importance_type': 'gain', 'learning_rate': 0.01, 'max_delta_step': 1.0, 'max_depth': 8, 'min_child_weight': 5, 'missing': None, 'n_estimators': 2000, 'n_jobs': 1, 'nthread': None, 'objective': 'reg:squarederror', 'random_state': 0, 'reg_alpha': 2.0, 'reg_lambda': 0.0, 'scale_pos_weight': 1, 'seed': 123, 'silent': None, 'subsample': 0.7, 'tree_method': 'gpu_hist', 'verbosity': 1}, 'results': {'fp_types': 'moe206_Path_Charge_CC', 'model': 'xgb', 'test_r2': 0.9613660697630746, 'test_rmse': 0.9008435015219654}}
+param_w_file is: params_2024-07-19-07_50_41

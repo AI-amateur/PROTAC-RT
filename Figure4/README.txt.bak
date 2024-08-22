@@ -1,0 +1,5 @@
+1.The file "4ml_reg_CC.csv" additionally records the predictive performance of the four models after incorporating chromatographic condition information as descriptors.
+
+2.The file "fcnn_reg_CC.csv" additionally records the predictive performance of the fcnn after incorporating chromatographic condition information as descriptors.
+
+3.The files "4ml_reg_CC_average.csv" and "fcnn_reg_CC_average.csv" respectively contain the average predictive performance of the four machine learning models and the fcnn deep learning model after incorporating chromatographic condition information as descriptors.

@@ -1,0 +1,2 @@
+model,fp_types,test_r2,test_rmse
+xgb,420intrinsic_mPC_CC,0.9583211529064259,0.9338729338746077

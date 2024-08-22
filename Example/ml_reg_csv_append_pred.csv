@@ -1,0 +1,2 @@
+,pred_file,model_file,fp_types,ext_rmse,ext_r2
+0,113external.csv,420intrinsic_xgb_mPC_CC_seed1,mPC_CC,2.1004740273423614,0.7986720079384539

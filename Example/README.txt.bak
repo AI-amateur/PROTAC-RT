@@ -1,0 +1,27 @@
+*To run the corresponding code, you first need to enter the corresponding environment (e.g., source activate molmap). Here, 'molmap' is used as an example of the environment.
+
+
+1.Datasets
+1). training set:420intrinsic.csv.(random seed split to divide 420intrinsic data into train, validation, and test 8:1:1,the training set is used to build the model, the validation set is applied to adjust hyperparameters, and the test set for final evaluation of the model prediction ability. And the robustness of each model was assessed by ten different random seeds (1, 2, 4, 8, 16, 32, 64, 128, 256 and 512).)
+
+2). external validation set: 113external.csv
+
+
+2.Feature Calculation
+1).The 'fp_dp_cal.py' file records the code for calculating molecular fingerprints and descriptors. The command to run the code is as follows:
+python fp_dp_cal.py -f 420intrinsic.csv -fps  Charge Path 
+
+2).After the calculation of descriptors is completed, they need to be normalized. The running code and commands are as follows:
+code:dp_nor.py
+python dp_nor.py -f 420intrinsic.csv -fps Path Charge
+*The calculated fingerprints and descriptors are all saved in the "tempignore" folder.
+
+3).The MOE206 descriptors, after being calculated using the relevant software, are also saved in the "tempignore" folder, and the chromatographic condition descriptors (CC), after being organized, are similarly stored in the "tempignore" folder.
+
+3.Training model
+1).The integration of MOE206, Path, Charge, and CC into a combined descriptor file is also saved in the "tempignore" folder, with the file name "420intrinsic_mPC_CC.csv".
+
+2).After the descriptors are prepared, proceed with the model construction. The running code and commands for building the model are as follows:
+code:4_ml_reg.py
+python 4_ml_reg.py  -m xgb -f 420intrinsic.csv -fp_packs '420intrinsic_mPC_CC' -save_model
+

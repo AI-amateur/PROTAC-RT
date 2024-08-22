@@ -1,0 +1,25 @@
+XGBRegressor(colsample_bytree=0.66, gpu_id=0, learning_rate=0.05,,,,,,
+             max_delta_step=1, max_depth=5, min_child_weight=5,,,,,,
+             n_estimators=2000, objective='reg:squarederror', seed=123,,,,,,
+             subsample=0.53, tree_method='gpu_hist'),,,,,,,
+,,,,,,,,
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,1,moe206_Path_Charge_CC,0.970332338,0.9602007,0.805516825,0.966802581,3.162498236
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,2,moe206_Path_Charge_CC,0.681560494,0.976508295,0.512800717,0.986869299,3.367882967
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,4,moe206_Path_Charge_CC,1.512181434,0.906582724,0.695604378,0.969598655,2.035658121
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,8,moe206_Path_Charge_CC,0.85862114,0.976101223,1.393886259,0.932879792,2.29216671
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,16,moe206_Path_Charge_CC,0.625894116,0.977499945,0.381784772,0.991353184,2.249722481
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,32,moe206_Path_Charge_CC,1.541962782,0.886490624,1.842489715,0.900628752,2.446086168
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,64,moe206_Path_Charge_CC,0.854487998,0.96400084,0.833904503,0.972022582,1.938056707
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,128,moe206_Path_Charge_CC,0.745896378,0.963140806,0.838136245,0.962937028,1.863082409
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,256,moe206_Path_Charge_CC,0.706382455,0.978886224,1.201427327,0.930414044,2.678825855
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,512,moe206_Path_Charge_CC,0.565616103,0.978370402,0.833178598,0.969705612,1.982168913
