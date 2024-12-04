@@ -3,8 +3,8 @@
 
 
 1.datasets
-420intrinsic_mPC_CC.csv
-The '420intrinsic_mPC_CC.csv' file records the following data:
+mPC_CC.csv
+The 'mPC_CC.csv' file records the following data:
 420 retention times (rt)
 206 MOE206 descriptors, which are molecular characteristics
 18 Path descriptor features
@@ -13,5 +13,6 @@ The '420intrinsic_mPC_CC.csv' file records the following data:
 
 
 2.method
-SHAP.ipynb
-The 'SHAP.ipynb' notebook molecular features molecular features using SHAP values and explains the importance of molecular features.
+3model_shap.html
+3model_shap.ipynb
+The '3model_shap.ipynb' notebook molecular features molecular features using SHAP values and explains the importance of molecular features.

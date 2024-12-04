@@ -1,0 +1,28 @@
+XGBRegressor(colsample_bylevel=0.9456695147102323,
+             colsample_bytree=0.8802559050472208, gamma=0.15796957347122748,
+             gpu_id=0, learning_rate=0.010170027687130568, max_delta_step=1,
+             max_depth=9, min_child_weight=5, n_estimators=1800,
+             objective='reg:squarederror', reg_alpha=2.9797370115636226,
+             reg_lambda=0.049551478004772866, seed=123,
+             subsample=0.8256029914175732, tree_method='gpu_hist')
+params_best
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,1,moe206_Path_Charge_CC,0.8314238719950949,0.9728230425046955,0.8531202679298029,0.9629770367456849,9.027387619018555
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,2,moe206_Path_Charge_CC,0.6983506724598697,0.9736908855418892,0.4985537369885623,0.9874140976269631,8.99850058555603
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,4,moe206_Path_Charge_CC,1.4047504998087377,0.9196411709297762,0.669806872528113,0.972475009098892,8.963711500167847
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,8,moe206_Path_Charge_CC,0.8979198881607239,0.9735848642839589,1.2413632973557536,0.9481530442752673,9.011474609375
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,16,moe206_Path_Charge_CC,0.6192485463373039,0.9784124166674241,0.43910835688263544,0.9896945427041522,8.813566446304321
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,32,moe206_Path_Charge_CC,1.448545786007719,0.8998212356863453,1.7844524547538936,0.9077462660519583,8.937782526016235
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,64,moe206_Path_Charge_CC,0.890482496241612,0.9597761772010336,0.8206514645851197,0.9726132795317675,7.673499822616577
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,128,moe206_Path_Charge_CC,0.7435208754879311,0.9633625281400696,0.7494813001560221,0.9696984254427015,7.349656105041504
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,256,moe206_Path_Charge_CC,0.690550894914822,0.9807153430453867,1.0852836145217013,0.94357112000125,9.003407955169678
+,model,seed,fp_types,valid_rmse,valid_r2,test_rmse,test_r2,time
+0,xgb,512,moe206_Path_Charge_CC,0.5581663126821227,0.9783285164686596,0.8153305317840468,0.971296364479708,7.56974983215332
